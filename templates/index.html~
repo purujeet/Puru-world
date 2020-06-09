@@ -1,0 +1,71 @@
+<html>
+<head>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+<link rel="icon" type="image/png" href="{% static 'pwicon.png' %}" />
+
+
+    <title>Puru world</title>
+<style>
+ body{
+ background:url('source.gif');
+ }
+ 	
+	
+
+#centeredmenu ul {
+   display:block;
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+  position:relative;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+   margin:0 0 0 1px;
+   padding:0px 15px;
+   background:#000;
+   color:#fff;
+   font-size:30;
+   text-decoration:none;
+   line-height:2em;
+}
+#centeredmenu ul li a:hover {
+   color:	#32CD32;
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+{%include 'titleframe.html' %}
+{%block titles%}
+{%endblock%}
+
+{%include 'intro.html' %}
+{%block intro%}
+{%endblock%}
+
+{%include 'sharing frame.html' %}
+{%block foot%}
+{%endblock%}
+
+
+</body>
+</html>

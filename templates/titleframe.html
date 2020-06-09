@@ -1,0 +1,23 @@
+{% block titles %}
+    <div style="height: 10%;,width:auto;background-color: #000000">
+        {% load static %}
+
+        <div id="centeredmenu" style="background-color: #000000">
+            <ul>
+              <img src="{% static "pwicon.png" %}" style="width:60px;height:50px;">
+            </ul>
+
+            <ul>
+                <b>
+                    {#                    <li><img src="{% static "puruworld.png" %}" style="width:300px;height:60px;"></li>#}
+
+                    <li><a href="/" class="fa fa-home"> Home</a></li>
+                    <li><a href="/videos/" class="fa fa-video-camera"> Videos</a></li>
+                    <li><a href="/apps/" class="fa fa-product-hunt"> Products</a></li>
+                </b>
+            </ul>
+
+        </div>
+
+    </div>
+{% endblock %}

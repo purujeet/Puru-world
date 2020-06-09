@@ -1,0 +1,66 @@
+<html>
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="{% static 'pwicon.png' %}"/>
+    <title>Puru world</title>
+</head>
+<body style="color:black;background-color: #d8d8d8; margin:0;" align="center">
+{% include 'titleframe.html' %}
+{% block titles %}
+{% endblock %}
+
+    <div class="apps" >
+    <img src="{% static 'micon1.png' %}" style="width:350px;height: 120px; box-shadow: 0 0 5px ;"/>
+        <div style="display: inline-block">
+            <img src="{% static 'icon1.png' %}" style="width: 70px;height: 71px;">
+                 <b style="font-size: 20px;">House Expense</b>
+        </div><br>
+        Hello how are you?
+    <br>
+        <a href="https://play.google.com/store/apps/details?id=myapplication2.com.houseexpense
+" target="blank">
+        <img class="icon" src="{% static 'pstore2.png' %}" style="width:50px;height:51px;">
+    </a>
+
+    <a href="https://www.amazon.com/puru-world-House-Expense/dp/B074WC7MFC/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1503237663&sr=1-1&keywords=houseexpense"
+       target="blank">
+        <img src="{% static "amazon2.png" %}" class="icon" style="width:51px;height:51px;">
+    </a>
+</div>
+<div class="apps">
+    <img src="{% static "micon2.png" %}" style="width:350px;height: 120px; box-shadow: 0 0 5px ;"/>
+<br><br>
+    <a href="https://play.google.com/store/apps/details?id=puruworld.fungames" target="blank">
+        <img src="{% static 'pstore2.png' %}" class="icon" style="width:50px;height:51px;">
+    </a>
+</div>
+<div class="apps">
+    <img src="{% static "micon3.png" %}" style="width:350px;height: 120px; box-shadow: 0 0 5px ;"/>
+<br><br>
+    <a href="https://play.google.com/store/apps/details?id=puruworld.gradientpaint" target="blank">
+        <img src="{% static 'pstore2.png' %}" class="icon" style="width:50px;height:51px;">
+    </a>
+</div>
+<div class="apps">
+    <img src="{% static "micon4.png" %}" style="width:350px;height: 120px; box-shadow: 0 0 5px ;"/>
+<br><br>
+    <a href="https://play.google.com/store/apps/details?id=puruworld.impaccent" target="blank">
+        <img src="{% static 'pstore2.png' %}" class="icon" style="width:50px;height:51px;">
+    </a>
+</div>
+<div class="apps">
+    <img src="{% static "micon4.png" %}" style="width:350px;height: 120px; box-shadow: 0 0 5px ;"/>
+<br><br>
+    <a href="https://play.google.com/store/apps/details?id=puruworld.spinthebottle" target="blank">
+        <img src="{% static 'pstore2.png' %}" class="icon" style="width:50px;height:51px;">
+    </a>
+</div>
+{% include 'sharing frame.html' %}
+{% block foot %}
+{% endblock %}
+
+</body>
+</html>

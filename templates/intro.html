@@ -1,0 +1,33 @@
+{% block intro %}
+        {% include 'slider.html' %}
+        {% block slide %}
+        {% endblock %}
+        {% load static %}
+
+    <div style="background-color: gray">
+        <div class="card videos" >
+            <a href="/videos/">
+                <img src="{% static "videos.png" %}" style="width:300px;height:150px;"/>
+
+                <p>Find all the videos made by our company
+                    {#            <a href="">Category 1</a>#}
+                </p>
+        </div>
+        </a>
+        <div class="card videos">
+            <img src="{% static "softwares.png" %}" style="width:300px;height:150px;"/>
+
+            <p>Find all the videos made by us in this section</p>
+        </div>
+
+        <a href="/apps/">
+
+            <div class="card videos">
+                <img src="{% static "applications.png" %}" style="width:300px;height:150px;"/>
+
+                <p>Find all the apps made by us in this section</p>
+            </div>
+        </a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,44 @@
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="{% static 'pwicon.png' %}"/>
+    <title>Puru world</title>
+    <script src="https://apis.google.com/js/platform.js"></script>
+</head>
+<body style="color:black;background-color: #d8d8d8; margin:0;" align="center">
+
+{% include 'titleframe.html' %}
+{% block titles %}
+{% endblock %}
+
+{% for i in ls %}
+<div class="videos ">
+
+<img src="{{ i.thumb }}" style="width:220px;height: 120px; box-shadow: 0 0 5px ;">
+   <br><br><center><b>{{ i.title  }}</b>
+<br><br>
+    <a style="text-decoration: none;color:#000000;font-family:FontAwesome; font-size: large; " href="https://www.youtube.com/watch?v={{ i.tag }}" target="blank">
+        <img class="playbtnclick" src="{% static 'playbtn.png' %}" class="iconvideos" style="width:50px;height:51px;">
+        <br>
+    </a>
+</center>
+
+</div>
+{% endfor %}
+
+<div class="subscribe">
+    <div class="g-ytsubscribe" data-channelid="UCFoVp5Va975oQQpevpQErQQ"
+         data-layout="full" data-count="default">
+    </div>
+{#    <a href="https://www.youtube.com/channel/UCFoVp5Va975oQQpevpQErQQ" target="_blank">#}
+{#        <img src="{% static "subicon.png" %}" style="width:250px;height:200px;">#}
+{#    </a>#}
+</div>
+
+        {%include 'sharing frame.html' %}
+        {%block foot%}
+        {%endblock%}
+</body>
+</html>

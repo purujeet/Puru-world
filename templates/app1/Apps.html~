@@ -1,0 +1,86 @@
+<html>
+<head>
+<style>
+.vbk{
+background:url('background.jpg');
+width:100%;
+}
+
+  body::-webkit-scrollbar {
+    width: 0.8em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(1,0,0,1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+</style>
+</head>
+<body style="color:black" background="background.jpg" screen:width>
+<h1>1.HOUSE EXPENSE</h1>
+<p >
+<table>
+<tr>
+<th><img src="icon.png" style="width:360px;360px"></th>
+<th >
+<h3>This app is to manage your product income & expense
+in best way .<br>
+Why download this?<br>	
+				1. Interactive UI with material design.<br>
+                 2. Easy UI to manage your records.<br>
+                 3. Export your records to a text file.<br>
+                 4. Easy search,delete by your product name and ID.<br>
+
+				
+				 </h3>
+</th>
+</tr>
+</table>
+
+<div align="center"  style="border:1px solid red" class="vbk">
+ <a href="https://play.google.com/store/apps/details?id=myapplication2.com.houseexpense 
+" target="blank">
+<img src="pstore.png" style="width:275px;height:126px;" href="https://play.google.com/store/apps/details?id=myapplication2.com.houseexpense">
+</a>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share"></div>
+
+ <a href="https://www.amazon.com/puru-world-House-Expense/dp/B074WC7MFC/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1503237663&sr=1-1&keywords=houseexpense" target="blank">
+<img src="amazonlogoblack.png" style="width:250px;height:126px;">
+</a>
+</div>
+
+<div class="vbk">
+<h1>2.Fun Games</h1>
+<table>
+<tr>
+<th><img src="iconspin.jpg" style="width:360px;360px" class="vbk"></th>
+<th >
+	<h3>This app contain fun games like Tic Tac Toe(Zero-Cross),Spin the bottle and have features as:
+	No need to find any coin to flip while having this game direct one tap and flip the coin
+	Play Stone,Paper and Scissor with cpu too.</h3>
+</th>
+</tr>
+</table>
+</div>
+
+
+<div align="center" style="border:1px solid red" class="vbk">
+
+ <a href="https://play.google.com/store/apps/details?id=puruworld.fungames" target="blank">
+<img src="pstore.png" style="width:275px;height:126px;">
+</a>
+
+</div>
+
+</body> 
+</html>

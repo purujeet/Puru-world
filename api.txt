@@ -1,0 +1,10 @@
+https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUFoVp5Va975oQQpevpQErQQ&key=AIzaSyBYB90AG_y1BSrDmRHLR237eGYklcliupc&pageToken=CDIQAA
+Video Title:
+d.json()["items"][0]['snippet']['title']
+Video Description:
+d.json()["items"][0]['snippet']['description']
+video link
+d.json()["items"][0]['snippet']['resourceId']['videoId']
+
+thumbnail
+ d.json()["items"][0]['snippet']['thumbnails']['medium']['url']
